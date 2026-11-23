@@ -1,0 +1,51 @@
+# Godot
+.import/
+.godot/
+export.cfg
+export_presets.cfg
+
+# Mono/.NET build outputs
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Crash logs
+*.crash
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# NuGet
+*.nupkg
+packages/
+
+# Generated C# files
+mono_crash.*.json
+
+# JetBrains Rider caches
+.gradle/
+.ReSharper*/
+*_Resharper.*
+*.DotSettings.user
+
+# Godot export artifacts (optional)
+exports/
+builds/
+
+# Temporary files
+*.tmp
+*.temp
