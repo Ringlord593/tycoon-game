@@ -42,10 +42,6 @@ mono_crash.*.json
 *_Resharper.*
 *.DotSettings.user
 
-# Godot export artifacts (optional)
-exports/
-builds/
-
 # Temporary files
 *.tmp
 *.temp
