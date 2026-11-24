@@ -18,12 +18,16 @@ Each developer owns one feature/system at a time. All work must be linked to a G
 
 5. Select the name of the feature in the first column to see the details, then scroll down until you see Development on the right hand side. 
 
-6. Select Create a branch. Enter the name: feature/\<issue-number\>-feature-name. See current branches for examples.
+6. Select Create a Branch and use the naming format: feature/\<issue-number\>-feature-name. Example: feature/2-interaction-system
 
-7. Commit changes regularly using clear commit messages. 
+7. Switch your local workspace to the newly created branch. Verify that the current branch shown in GitHub Desktop matches the branch created for your issue.
 
-8. Push the branch to GitHub when the feature is functional.
+8. Open the project in Godot and begin development.
 
-10. Create a pull request or notify Nathan that the feature is ready. 
+9. Commit changes regularly using clear, descriptive commit messages. 
 
-11. After approval and merge, move the issue to Done. 
+10. Push the branch to GitHub when the feature is functional and compiles without errors.
+
+11. Create a pull request or notify Nathan that the feature is ready for review.
+
+12. After approval and merge, move the issue to Done. 
