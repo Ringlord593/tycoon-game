@@ -18,7 +18,7 @@ Each developer owns one feature/system at a time. All work must be linked to a G
 
 5. Select the name of the feature in the first column to see the details, then scroll down until you see Development on the right hand side. 
 
-6. Select Create a branch. Enter the name: feature/<issue-number>-feature-name. See current branches for examples.
+6. Select Create a branch. Enter the name: feature/\<issue-number\>-feature-name. See current branches for examples.
 
 7. Commit changes regularly using clear commit messages. 
 
