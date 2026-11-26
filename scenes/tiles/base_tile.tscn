@@ -1,9 +1,11 @@
 [gd_scene format=3 uid="uid://bnvbpakno8wvy"]
 
 [ext_resource type="PackedScene" uid="uid://4lynaowixlix" path="res://assets/models/hexigon.glb" id="1_dg12e"]
+[ext_resource type="Script" uid="uid://trkm1ft74gbn" path="res://scripts/FactoryTile.cs" id="2_2hffs"]
 [ext_resource type="Material" uid="uid://bkxd085iy3pvo" path="res://assets/materials/tile_default.tres" id="2_olawm"]
 
 [node name="tile" unique_id=2109119515 instance=ExtResource("1_dg12e")]
+script = ExtResource("2_2hffs")
 
 [node name="Circle" parent="." index="0" unique_id=431546152]
 surface_material_override/0 = ExtResource("2_olawm")

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b2q0qwft8pdev"]
+
+[ext_resource type="Script" uid="uid://djpovlyjpvfc2" path="res://scripts/FactoryMap.cs" id="1_4xfga"]
+
+[sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_xwig5"]
+
+[node name="Map" type="Node3D" unique_id=852744217]
+script = ExtResource("1_4xfga")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1591117309]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=433968225]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.104320526, 0, 0.016714096)
+shape = SubResource("WorldBoundaryShape3D_xwig5")
