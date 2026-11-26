@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://civh8c1foq7q1"]
+
+[ext_resource type="Script" uid="uid://cqvynkeq05b8h" path="res://addons/map_editor/MapEditorDock.cs" id="1_lk8hw"]
+
+[node name="MapEditor" type="VBoxContainer" unique_id=1808182153]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_lk8hw")
+
+[node name="Title" type="Label" parent="." unique_id=401699731]
+layout_mode = 2
+text = "Hex Map Editor"
+
+[node name="HSeparator" type="HSeparator" parent="." unique_id=1916435310]
+layout_mode = 2
+
+[node name="TileScene" type="Label" parent="." unique_id=81491685]
+layout_mode = 2
+text = "Tile Scene Path"
+
+[node name="TileScenePath" type="LineEdit" parent="." unique_id=965887469]
+layout_mode = 2
+
+[node name="HSeparator2" type="HSeparator" parent="." unique_id=1980207670]
+layout_mode = 2
+
+[node name="ModeDropdown" type="OptionButton" parent="." unique_id=270605789]
+layout_mode = 2
+
+[node name="WidthContainer" type="HBoxContainer" parent="." unique_id=1866196126]
+layout_mode = 2
+
+[node name="BrushSize" type="Label" parent="WidthContainer" unique_id=1269473630]
+layout_mode = 2
+text = "Brush Size"
+
+[node name="BrushSizeBox" type="SpinBox" parent="WidthContainer" unique_id=495806345]
+layout_mode = 2
+min_value = 1.0
+value = 1.0
+
+[node name="CoordinateLabel" type="Label" parent="." unique_id=292547937]
+layout_mode = 2
